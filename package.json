@@ -4,11 +4,24 @@
     "description": "Generates image formats compatible to gatsby-image",
     "author": "Sarp ISIK <zeybekos@gmail.com>",
     "homepage": "http://strapi.io",
+    "keywords": [
+        "strapi",
+        "gatsby-image",
+        "upload",
+        "sharp"
+    ],
     "license": "ISC",
     "main": "index.js",
+    "repository": {
+        "type": "git",
+        "url": "git://github.com/sarpisik/strapi-sharp"
+    },
+    "engines": {
+        "node": "12.18.2",
+        "npm": "6.12.0"
+    },
     "scripts": {
-        "start": "npm run clean && node index.js",
-        "clean": "rm -rf dist/*"
+        "start": "node index.js"
     },
     "dependencies": {
         "fs-extra": "9.0.1",
@@ -21,7 +34,7 @@
         "sharp": "0.24.1"
     },
     "devDependencies": {
-        "eslint-config-prettier": "^6.11.0",
+        "eslint-config-prettier": "6.11.0",
         "prettier": "2.0.5"
     }
 }
