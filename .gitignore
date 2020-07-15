@@ -1,0 +1,23 @@
+# Mac files
+.DS_Store
+
+# Dependency directories
+node_modules
+
+# lerna files
+/lerna-debug.log
+
+# Log files / folders
+logs
+*.log
+npm-debug.log*
+
+# env files
+*.env
+
+# Build files
+dist
+build
+
+# CI
+coverage/
