@@ -1,11 +1,11 @@
-# `sharp`
+# strapi-sharp
 
-> TODO: description
+Generates image formats compatible to gatsby-image
 
 ## Usage
 
 ```
-const sharp = require('sharp');
+const strapiSharp = require("sharp-strapi");
 
-// TODO: DEMONSTRATE API
+strapiSharp({ image }); // image is buffer.
 ```
