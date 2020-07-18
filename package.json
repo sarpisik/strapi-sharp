@@ -1,7 +1,7 @@
 {
     "name": "strapi-sharp",
-    "version": "1.0.0",
-    "description": "Generates image formats compatible to gatsby-image",
+    "version": "1.0.1",
+    "description": "Generates image formats compatible to gatsby-image. This is a personal project.",
     "author": "Sarp ISIK <zeybekos@gmail.com>",
     "homepage": "http://strapi.io",
     "keywords": [
